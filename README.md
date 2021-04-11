@@ -2,8 +2,8 @@
 
 - contiene 10 rojos y 10 verdes
 - El primer numero del array al conectarme es el channelId
-- as : ( rojo ) ascendente. ( debo usar insert sort)
-- bs : ( verde ) descendente 
+- as : ( rojo ) ascendente as es compra 
+- bs : ( verde ) descendente  bs es venta
 
 ### El segundo mensaje es el evento de actualización del libro
 

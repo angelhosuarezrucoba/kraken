@@ -38,7 +38,8 @@ export const updateBook = (updateSide, bookSide, data) => {//Podría ser "a" o "
         }
         orderBookBySide(updateSide, bookSide);
     }
-    console.log(`compra: ${book.as[0][0]} - venta: ${book.bs[0][0]}`);
+    // console.log(`compra: ${book.as[0][0]} - venta: ${book.bs[0][0]}`);
+    return {buyPrice: book.as[0][0], sellPrice: book.bs[0][0]}
 }
 
 
